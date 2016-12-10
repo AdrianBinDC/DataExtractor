@@ -3,7 +3,11 @@
 //
 //  Created by Adrian Bolinger on 12/9/16.
 //  Copyright © 2016 Adrian Bolinger. All rights reserved.
+<<<<<<< HEAD
 //  Special thanks for Duncan C on the getAddressData method.
+=======
+//  Special thanks to Duncan C for his assistance on getAddressData
+>>>>>>> afef9003f9713d852864499a05124e3bf7fed9c4
 //  http://stackoverflow.com/users/205185/duncan-c
 //
 
