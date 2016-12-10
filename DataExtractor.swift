@@ -3,11 +3,7 @@
 //
 //  Created by Adrian Bolinger on 12/9/16.
 //  Copyright © 2016 Adrian Bolinger. All rights reserved.
-<<<<<<< HEAD
-//  Special thanks for Duncan C on the getAddressData method.
-=======
 //  Special thanks to Duncan C for his assistance on getAddressData
->>>>>>> afef9003f9713d852864499a05124e3bf7fed9c4
 //  http://stackoverflow.com/users/205185/duncan-c
 //
 
@@ -73,7 +69,7 @@ class DataExtractor: NSObject {
         return phoneNumberArray
     }
 
-    /// Returns array of address dictionaries from a string
+    /// Returns array of address dictionaries from a String
     func getAddressData(from string: String) -> [Dictionary<String, Any>] {
         var addressData = [Dictionary<String, Any>()]
         
@@ -90,6 +86,7 @@ class DataExtractor: NSObject {
         return addressData
     }
     
+    // Returns array of Date objects contained in a String
     func getDateData(from string: String) -> [Date] {
         var dateData = [Date]()
         
@@ -99,7 +96,6 @@ class DataExtractor: NSObject {
         // put matches into String array
         for match in matches {
             if match.resultType == .date {
-                print(match.date!)
                 dateData.append(match.date!)
             }
         }
