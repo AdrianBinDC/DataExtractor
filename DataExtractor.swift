@@ -3,6 +3,8 @@
 //
 //  Created by Adrian Bolinger on 12/9/16.
 //  Copyright © 2016 Adrian Bolinger. All rights reserved.
+//  Special thanks to Duncan C for his assistance on getAddressData
+//  http://stackoverflow.com/users/205185/duncan-c
 //
 
 import Foundation
