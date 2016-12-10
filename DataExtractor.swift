@@ -14,14 +14,7 @@ import Foundation
  */
 
 class DataExtractor: NSObject {
-    
-    /// String from which DataExtractor will extract data elements
-    
-    // MARK: - Initializers
-    convenience init(string: String) {
-        self.init()
-    }
-    
+        
     // MARK: - Data Extraction Methods
     
     /// Extracts email addresses and returns an array of email address strings
