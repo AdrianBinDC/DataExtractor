@@ -4,24 +4,24 @@ A simple Swift 3.0 class using `NSDataDetector` to extract physical addresses, e
 **Methods**
 
 Initializer:
-	let dataExtractor = DataExtractor()
+	`let dataExtractor = DataExtractor()`
 
 **`func getEmailAddress(from dataString: String) -> [String]`**
 
 example usage:
-	dataExtractor.getEmailAddress(from myString)
+	`dataExtractor.getEmailAddress(from myString)`
 
 **`func getPhoneNumber(from: dataString: String) -> [String]`**
 
 example usage:
-	dataExtractor.getPhoneNumber(from: myString)
+	`dataExtractor.getPhoneNumber(from: myString)`
 
 **`func getAddressData(from string: String) -> [Dictionary<String, Any>]`**
 
 example usage:
-	dataExtractor.getAddressData(from myString)
+	`dataExtractor.getAddressData(from myString)`
 
 **'func getDateData(from string: String) -> [Date]'**
 
 example usage:
-	dataExtractor.getDateData(from myString)
+	`dataExtractor.getDateData(from myString)`
